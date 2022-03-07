@@ -1,0 +1,54 @@
+* {
+   box-sizing: border-box;
+   font-family: 'Fjalla One', Impact, Arial, sans-serif;
+}
+
+body {
+   background-color: #004AAD;
+   background-image: url('https://github.com/Kur1sutaru/imerdevalura2022/blob/main/celsiustofahrenheit/converterctof.png?raw=true');
+   background-size: 320vh;
+   background-repeat: no-repeat
+}
+
+form {
+   background-color: #004AAD;
+   padding: 50px;
+   width: 50%;
+   margin: 100px auto;
+   text-align: center;
+}
+
+#tempCalc label {
+   font-size: 30px;
+}
+
+#temp {
+   border: none;
+   padding: 10px;
+   height: 40px;
+   width: 100px;
+   font-size: 20px;
+   margin-top: 20px;
+}
+
+#temp_diff {
+   height: 40px;
+   border: none;
+   margin-top: 20px;
+   font-size: 15px;
+   vertical-align: top;
+}
+
+[type="submit"] {
+   height: 35px;
+   margin: 20px;
+   width: 100px;
+   font-size: 15px;
+   border: none;
+   background-color: black;
+   color: white;
+}
+
+#resultContainer {
+   font-size: 35px;
+}
